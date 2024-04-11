@@ -1,5 +1,5 @@
 tasks {
     withType<GreetingTask> {
-        who.add(provider { "World" })
+        who.add("World")
     }
 }

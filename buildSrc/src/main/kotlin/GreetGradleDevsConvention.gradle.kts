@@ -1,5 +1,5 @@
 tasks {
     withType<GreetingTask> {
-        who.add(provider { "Gradle Devs" })
+        who.add("Gradle Devs")
     }
 }
