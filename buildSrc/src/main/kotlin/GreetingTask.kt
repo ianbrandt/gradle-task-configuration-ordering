@@ -10,6 +10,6 @@ abstract class GreetingTask : DefaultTask() {
 
     @TaskAction
     fun action() {
-        logger.warn("Hello ${who.get().joinToString(", and ")}")
+        logger.warn("Hello ${who.get().joinToString(", and ")}!")
     }
 }
