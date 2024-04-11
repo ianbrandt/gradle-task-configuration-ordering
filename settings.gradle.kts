@@ -1,1 +1,1 @@
-rootProject.name = "reproducer-project"
+rootProject.name = "gradle-task-configuration-ordering"
